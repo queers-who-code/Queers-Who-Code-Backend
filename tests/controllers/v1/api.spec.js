@@ -2,7 +2,7 @@ const chai = require('chai');
 const chaiHttp = require('chai-http');
 
 const should = chai.should();
-const server = require('../../../server');
+const server = require('../../../server').default;
 
 // setup chai to use http assertion
 chai.use(chaiHttp);
