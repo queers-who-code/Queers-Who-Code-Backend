@@ -1,3 +1,8 @@
+/* eslint-disable no-console */
+/*
+ * Queers Who Code
+ * main server
+ */
 require('dotenv').config();
 const express = require('express');
 
